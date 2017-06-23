@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -47,7 +47,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -261,21 +261,21 @@
 <text x="-6.35" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="7.62" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-0.635" x2="2.54" y2="0.635" layer="39"/>
-<smd name="9" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="8" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="2" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="1" x="-2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="7" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="6" x="2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="4" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
-<smd name="5" x="2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="9" x="-1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="8" x="0" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="3" x="0" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="2" x="-1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="-2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="7" x="1.27" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="6" x="2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="4" x="1.27" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
+<smd name="5" x="2.54" y="-0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
 <wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="1.27" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="21"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
-<smd name="10" x="-2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100"/>
+<smd name="10" x="-2.54" y="0.635" dx="0.7874" dy="0.7874" layer="1" roundness="100" cream="no"/>
 </package>
 <package name="ZX80-B-5P">
 <smd name="1" x="-1.3" y="0" dx="1.3" dy="0.4" layer="1" rot="R90"/>
@@ -1479,45 +1479,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="5" y1="-5" x2="4.25" y2="-5" width="0.127" layer="21"/>
 <text x="-6.35" y="-3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="7.62" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Electromechanical">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find anything that moves- switches, relays, buttons, potentiometers. Also, anything that goes on a board but isn't electrical in nature- screws, standoffs, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TACTILE-PTH">
-<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -6126,6 +6087,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="KVB-switches">
+<packages>
+<package name="SWITCH-TACT-TH">
+<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6317,7 +6294,7 @@ design rules under a new name.</description>
 <elements>
 <element name="J1" library="KVB-connectors" package="M20-9992046" value="M20-9992046" x="2.54" y="30.48" smashed="yes" rot="MR270">
 <attribute name="MAN-PART_NUM" value="M20-9992046" x="2.54" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER" value="HARWIN" x="2.54" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Harwin Inc." x="2.54" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="3.81" y="56.515" size="1.27" layer="26" ratio="11" rot="MR0"/>
 <attribute name="VALUE" x="3.81" y="3.175" size="1.27" layer="28" ratio="11" rot="MR0"/>
 </element>
@@ -6333,13 +6310,13 @@ design rules under a new name.</description>
 </element>
 <element name="J2" library="KVB-connectors" package="M20-9992046" value="M20-9992046" x="26.67" y="2.54" smashed="yes" rot="MR180">
 <attribute name="MAN-PART_NUM" value="M20-9992046" x="26.67" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="HARWIN" x="26.67" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Harwin Inc." x="26.67" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="27.432" y="6.096" size="1.27" layer="26" ratio="11" rot="MR0"/>
 <attribute name="VALUE" x="53.975" y="3.81" size="1.27" layer="28" ratio="11" rot="MR270"/>
 </element>
 <element name="J3" library="KVB-connectors" package="M20-9992046" value="M20-9992046" x="50.8" y="30.48" smashed="yes" rot="MR270">
 <attribute name="MAN-PART_NUM" value="M20-9992046" x="50.8" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER" value="HARWIN" x="50.8" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Harwin Inc." x="50.8" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="52.07" y="56.515" size="1.27" layer="26" ratio="11" rot="MR0"/>
 <attribute name="VALUE" x="52.07" y="3.175" size="1.27" layer="28" ratio="11" rot="MR0"/>
 </element>
@@ -6349,17 +6326,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.827" y="18.161" size="1.27" layer="25" ratio="11"/>
 <attribute name="VALUE" x="11.43" y="5.08" size="1.27" layer="27" ratio="11"/>
 </element>
-<element name="S1" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="1825910-6" x="19.05" y="36.83" smashed="yes" rot="R180">
+<element name="S1" library="KVB-switches" package="SWITCH-TACT-TH" value="1825910-6" x="19.05" y="36.83" smashed="yes" rot="R180">
 <attribute name="MAN-PART_NUM" value="1825910-6" x="19.05" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="19.05" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="13.462" y="36.449" size="1.27" layer="25" ratio="11"/>
-<attribute name="PROD_ID" value=" SWCH-08441" x="19.05" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NOTE" value="Trezor" x="19.05" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="S2" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="1825910-6" x="34.29" y="36.83" smashed="yes">
+<element name="S2" library="KVB-switches" package="SWITCH-TACT-TH" value="1825910-6" x="34.29" y="36.83" smashed="yes">
 <attribute name="MAN-PART_NUM" value="1825910-6" x="34.29" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="34.29" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.702" y="36.322" size="1.27" layer="25" ratio="11"/>
-<attribute name="PROD_ID" value=" SWCH-08441" x="34.29" y="36.83" size="1.778" layer="27" display="off"/>
+<attribute name="NOTE" value="Trezor" x="34.29" y="36.83" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="100nF" x="30.861" y="19.812" smashed="yes" rot="MR0">
 <attribute name="NAME" x="32.131" y="20.828" size="1.27" layer="26" ratio="11" rot="MR0"/>
@@ -6443,6 +6420,7 @@ design rules under a new name.</description>
 <attribute name="MAN-PART_NUM" value="ZX80-B-5P(30)" x="41.91" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Hirose" x="41.91" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.164" y="5.763" size="1.27" layer="25" ratio="11" rot="R90"/>
+<attribute name="NOTE" value="Trezor" x="41.91" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="36.66" y="15.7" size="1.27" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="D2" library="KVB-diodes" package="SOD123" value="MBR130T3G" x="45.085" y="30.48" smashed="yes" rot="R270">
@@ -6455,54 +6433,66 @@ design rules under a new name.</description>
 <attribute name="MAN-PART_NUM" value="MBR130T3G" x="41.275" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="ON Semiconductor" x="41.275" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.021" y="29.507" size="1.27" layer="25" ratio="11" rot="R90"/>
+<attribute name="NOTE" value="Trezor" x="41.275" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="38.975" y="31.58" size="1.27" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="U2" library="KVB-ICs" package="MCP1703AT-3302E/CB" value="MCP1703AT-3302E/CB" x="42.164" y="23.622" smashed="yes" rot="R180">
 <attribute name="MAN-PART_NUM" value="MCP1703AT-3302E/CB" x="42.164" y="23.622" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" x="42.164" y="23.622" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.422" y="22.765" size="1.27" layer="25" ratio="11" rot="R90"/>
+<attribute name="NOTE" value="Trezor" x="42.164" y="23.622" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="44.164" y="27.622" size="1.27" layer="27" ratio="11" rot="R180"/>
 </element>
 <element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="1.0uF" x="44.196" y="20.701" smashed="yes" rot="R270">
 <attribute name="NAME" x="44.577" y="15.875" size="1.27" layer="25" ratio="11" rot="R90"/>
+<attribute name="NOTE" value="Trezor" x="44.196" y="20.701" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="42.291" y="21.336" size="1.27" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="1.0uF" x="42.164" y="26.67" smashed="yes">
 <attribute name="NAME" x="40.259" y="25.273" size="1.27" layer="25" ratio="11" rot="R90"/>
+<attribute name="NOTE" value="Trezor" x="42.164" y="26.67" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="41.529" y="24.765" size="1.27" layer="27" ratio="11"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" value="22.0" x="35.56" y="15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.433" y="16.256" size="1.27" layer="25" ratio="11"/>
+<attribute name="NOTE" value="Trezor" x="35.56" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="36.195" y="17.145" size="1.27" layer="27" ratio="11" rot="R180"/>
 </element>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" value="22.0" x="35.56" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.909" y="11.049" size="1.27" layer="25" ratio="11" rot="R90"/>
+<attribute name="NOTE" value="Trezor" x="35.56" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="36.195" y="14.605" size="1.27" layer="27" ratio="11" rot="R180"/>
 </element>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" value="1.5K" x="35.56" y="10.16" smashed="yes">
 <attribute name="NAME" x="32.766" y="7.747" size="1.27" layer="25" ratio="11"/>
+<attribute name="NOTE" value="Trezor" x="35.56" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="34.925" y="8.255" size="1.27" layer="27" ratio="11"/>
 </element>
 <element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" value="12.0K" x="13.335" y="26.67" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.97" y="28.448" size="1.27" layer="25" ratio="11" rot="R90"/>
+<attribute name="NOTE" value="Trezor" x="13.335" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.24" y="26.035" size="1.27" layer="27" ratio="11" rot="R90"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" value="22.0K" x="16.51" y="26.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.145" y="28.448" size="1.27" layer="25" ratio="11" rot="R90"/>
+<attribute name="NOTE" value="Trezor" x="16.51" y="26.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="14.605" y="27.305" size="1.27" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="X1" library="KVB-crystals" package="ABL-8.000MHZ-B2" value="ABL-8.000MHZ-B2" x="35.56" y="23.876" smashed="yes" rot="MR270">
 <attribute name="MAN-PART_NUM" value="ABL-8.000MHZ-B2" x="35.56" y="23.876" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Abracon" x="35.56" y="23.876" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="38.354" y="20.447" size="1.27" layer="26" ratio="11" rot="MR90"/>
+<attribute name="NOTE" value="Trezor" x="35.56" y="23.876" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="40.005" y="27.051" size="1.27" layer="28" ratio="11" rot="MR270"/>
 </element>
 <element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="22pF" x="36.449" y="24.892" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.798" y="27.178" size="1.27" layer="25" ratio="11"/>
+<attribute name="NOTE" value="Trezor" x="36.449" y="24.892" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="37.084" y="26.797" size="1.27" layer="27" ratio="11" rot="R180"/>
 </element>
 <element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="22pF" x="36.449" y="22.86" smashed="yes">
 <attribute name="NAME" x="36.322" y="20.574" size="1.27" layer="25" ratio="11"/>
+<attribute name="NOTE" value="Trezor" x="36.449" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="35.814" y="20.955" size="1.27" layer="27" ratio="11"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="DNP" x="19.05" y="15.24" smashed="yes">
@@ -6511,30 +6501,37 @@ design rules under a new name.</description>
 </element>
 <element name="U3" library="microbuilder" package="UG-2864HSWEG01_0.96IN_WRAPAROUND" value="UG-2864HSWEG01_0.96IN_WRAPAROUND" x="26.67" y="56.007" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.834" y="61.41" size="1.27" layer="25" ratio="11"/>
+<attribute name="NOTE" value="Trezor" x="26.67" y="56.007" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="39.76" y="65.107" size="1.27" layer="27" ratio="11" rot="R180"/>
 </element>
 <element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="2.2uF" x="18.034" y="53.34" smashed="yes" rot="MR270">
 <attribute name="NAME" x="17.018" y="48.387" size="1.27" layer="26" ratio="11" rot="MR90"/>
+<attribute name="NOTE" value="Trezor" x="18.034" y="53.34" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="19.939" y="53.975" size="1.27" layer="28" ratio="11" rot="MR270"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="100nF" x="31.75" y="53.34" smashed="yes" rot="MR270">
 <attribute name="NAME" x="31.623" y="48.514" size="1.27" layer="26" ratio="11" rot="MR90"/>
+<attribute name="NOTE" value="Trezor" x="31.75" y="53.34" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="33.655" y="53.975" size="1.27" layer="28" ratio="11" rot="MR270"/>
 </element>
 <element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="1.0uF" x="29.845" y="53.34" smashed="yes" rot="MR270">
 <attribute name="NAME" x="28.829" y="48.514" size="1.27" layer="26" ratio="11" rot="MR90"/>
+<attribute name="NOTE" value="Trezor" x="29.845" y="53.34" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="31.75" y="53.975" size="1.27" layer="28" ratio="11" rot="MR270"/>
 </element>
 <element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="1.0uF" x="34.163" y="53.34" smashed="yes" rot="MR90">
 <attribute name="NAME" x="33.528" y="48.387" size="1.27" layer="26" ratio="11" rot="MR90"/>
+<attribute name="NOTE" value="Trezor" x="34.163" y="53.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="32.258" y="52.705" size="1.27" layer="28" ratio="11" rot="MR90"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" value="1.0uF" x="36.068" y="53.34" smashed="yes" rot="MR270">
 <attribute name="NAME" x="35.56" y="48.387" size="1.27" layer="26" ratio="11" rot="MR90"/>
+<attribute name="NOTE" value="Trezor" x="36.068" y="53.34" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="37.973" y="53.975" size="1.27" layer="28" ratio="11" rot="MR270"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" value="390K" x="19.939" y="53.34" smashed="yes" rot="MR90">
 <attribute name="NAME" x="19.685" y="48.387" size="1.27" layer="26" ratio="11" rot="MR90"/>
+<attribute name="NOTE" value="Trezor" x="19.939" y="53.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="18.034" y="52.705" size="1.27" layer="28" ratio="11" rot="MR90"/>
 </element>
 <element name="FD1" library="KVB-misc" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="3.81" y="60.96" smashed="yes"/>
@@ -6547,9 +6544,9 @@ design rules under a new name.</description>
 <element name="TP3" library="KVB-misc" package="TEST-POINT-40MILL" value="TEST-POINT40MIL" x="42.164" y="20.701" smashed="yes"/>
 <element name="TP4" library="KVB-misc" package="TEST-POINT-40MILL" value="TEST-POINT40MIL" x="19.05" y="21.59" smashed="yes"/>
 <element name="TP5" library="KVB-misc" package="TEST-POINT-40MILL" value="TEST-POINT40MIL" x="8.89" y="19.05" smashed="yes"/>
-<element name="J6" library="KVB-connectors" package="M20-9990246" value="M20-9990246" x="43.18" y="36.83" smashed="yes" rot="R90">
+<element name="J6" library="KVB-connectors" package="M20-9990246" value="DNP" x="43.18" y="36.83" smashed="yes" rot="R90">
 <attribute name="MAN-PART_NUM" value="M20-9990246" x="43.18" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Harwin Inc" x="43.18" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Harwin Inc." x="43.18" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="41.6052" y="39.0398" size="1.27" layer="25" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="46.355" y="34.29" size="1.27" layer="27" ratio="11" rot="R90"/>
 </element>
