@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16735,7 +16735,7 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
-<text x="116.84" y="175.26" size="1.778" layer="95">Trezor MCU</text>
+<text x="116.84" y="172.72" size="1.778" layer="95">Trezor MCU</text>
 <text x="5.08" y="167.64" size="1.778" layer="95">CW West 
 Connector</text>
 <text x="5.08" y="73.66" size="1.778" layer="95">CW South
@@ -16744,13 +16744,15 @@ Connector</text>
 Connector</text>
 <text x="190.5" y="91.44" size="1.778" layer="95">JTAG Header</text>
 <text x="116.84" y="58.42" size="1.778" layer="95">MCU Boot Modes</text>
-<text x="226.06" y="137.16" size="1.778" layer="95">CW Vcore Voltage 
+<text x="226.06" y="137.16" size="1.778" layer="95">CW Vcore 
+Voltage 
 Selection
-Permanently set 
-to 1.2V</text>
-<text x="208.28" y="104.14" size="1.778" layer="95">CW_LED3 indicates 
+Permanently 
+set to 1.2V</text>
+<text x="213.36" y="101.6" size="1.778" layer="95">CW_LED3 
+indicates 
 power is ON!</text>
-<text x="190.5" y="60.96" size="1.778" layer="95">OLED Test Points</text>
+<text x="187.96" y="58.42" size="1.778" layer="95">OLED Test Points</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
@@ -17454,7 +17456,7 @@ power is ON!</text>
 <plain>
 <text x="101.6" y="27.94" size="1.778" layer="95">MCU Decoupling Caps
 (place next to VBAT, VDD1-4 and VDDA)</text>
-<text x="7.62" y="30.48" size="1.778" layer="95">MCU Glitch Circuitry
+<text x="2.54" y="30.48" size="1.778" layer="95">MCU Glitch Circuitry
 Warning: This circuit shorts
 internal 1.2V to ground.
 Use short glitches! 
@@ -17490,8 +17492,8 @@ will be destroyed!</text>
 <instance part="GND19" gate="G$1" x="81.28" y="5.08"/>
 <instance part="GND16" gate="G$1" x="45.72" y="17.78"/>
 <instance part="R8" gate="G$1" x="35.56" y="15.24" rot="R90"/>
-<instance part="R7" gate="G$1" x="35.56" y="48.26"/>
-<instance part="1.2V2" gate="G$1" x="25.4" y="53.34"/>
+<instance part="R7" gate="G$1" x="38.1" y="48.26"/>
+<instance part="1.2V2" gate="G$1" x="30.48" y="53.34"/>
 <instance part="GND14" gate="G$1" x="35.56" y="5.08"/>
 <instance part="Q1" gate="G$1" x="43.18" y="30.48"/>
 <instance part="J7" gate="G$1" x="43.18" y="162.56" rot="MR0">
@@ -17893,7 +17895,7 @@ will be destroyed!</text>
 <wire x1="45.72" y1="48.26" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 <label x="53.34" y="48.768" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 <junction x="45.72" y="48.26"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -17930,9 +17932,9 @@ will be destroyed!</text>
 <net name="1.2V" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="1.2V2" gate="G$1" pin="1.2V"/>
-<wire x1="25.4" y1="48.26" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="48.26" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="1.2V3" gate="G$1" pin="1.2V"/>
