@@ -7038,9 +7038,11 @@ Positive Fixed Output 3.3V 250mA SOT-23A-3</description>
 <text x="-13.09" y="15.69" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-13.09" y="-9.1" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-5.2" y="-7" size="0.8128" layer="51">PCB EDGE (1.6mm)</text>
-<hole x="-8" y="-5.45" drill="0.4"/>
-<hole x="8" y="-5.45" drill="0.4"/>
-<wire x1="13.35" y1="-7.5" x2="-13.35" y2="-7.5" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-13.97" y1="-7.62" x2="-10.16" y2="-7.62" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-10.16" y1="-7.62" x2="-8.001" y2="-5.461" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-8.001" y1="-5.461" x2="8.001" y2="-5.461" width="0.127" layer="51" style="shortdash"/>
+<wire x1="8.001" y1="-5.461" x2="10.16" y2="-7.62" width="0.127" layer="51" style="shortdash"/>
+<wire x1="10.16" y1="-7.62" x2="13.97" y2="-7.62" width="0.127" layer="51" style="shortdash"/>
 </package>
 </packages>
 <symbols>
